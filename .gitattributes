@@ -1,3 +1,8 @@
+# Prioritize Dart
 *.dart linguist-detectable=true
+
+# Mark C++ and CMake files as vendored (ignored for language stats)
 *.cpp linguist-vendored
 *.h linguist-vendored
+CMakeLists.txt linguist-vendored
+*.cmake linguist-vendored
